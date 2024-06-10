@@ -35,19 +35,19 @@
                     </td>
                 </tr>
                 <tr>
-                    <th class="ps-5" scope="col">
+                    <th class="ps-4" scope="col">
                         1.1
                     </th>
-                    <td>
+                    <td class="ps-4">
                         <a class="link-dark link-offset-2 link-underline link-underline-opacity-0"
                             href="#module_bref">Le modèle Simandré, en bref</a>
                     </td>
                 </tr>
                 <tr>
-                    <th class="ps-5" scope="col">
+                    <th class="ps-4" scope="col">
                         1.2
                     </th>
-                    <td>
+                    <td class="ps-4">
                         <a class="link-dark link-offset-2 link-underline link-underline-opacity-0" href="#origine">Nos
                             origines</a>
                     </td>
@@ -62,19 +62,37 @@
                     </td>
                 </tr>
                 <tr>
-                    <th class="ps-5" scope="col">
+                    <th class="ps-4" scope="col">
                         2.1
                     </th>
-                    <td>
+                    <td class="ps-4">
                         <a class="link-dark link-offset-2 link-underline link-underline-opacity-0"
                             href="#vue-d-ensemble">Vue d'ensemble</a>
                     </td>
                 </tr>
                 <tr>
                     <th class="ps-5" scope="col">
+                        2.1.1
+                    </th>
+                    <td class="ps-5">
+                        <a class="link-dark link-offset-2 link-underline link-underline-opacity-0"
+                            href="#fonc">Fonctionnement</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="ps-5" scope="col">
+                        2.1.2
+                    </th>
+                    <td class="ps-5">
+                        <a class="link-dark link-offset-2 link-underline link-underline-opacity-0"
+                            href="#cablage">Câblage</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="ps-4" scope="col">
                         2.2
                     </th>
-                    <td>
+                    <td class="ps-4">
                         <a class="link-dark link-offset-2 link-underline link-underline-opacity-0"
                             href="#cara-tech">Caractéristiques Techniques</a>
                     </td>
@@ -99,19 +117,19 @@
                     </td>
                 </tr>
                 <tr>
-                    <th class="ps-5" scope="col">
+                    <th class="ps-4" scope="col">
                         4.1
                     </th>
-                    <td>
+                    <td class="ps-4">
                         <a class="link-dark link-offset-2 link-underline link-underline-opacity-0"
                             href="#code_module_simandre">Code du module Simandré</a>
                     </td>
                 </tr>
                 <tr>
-                    <th class="ps-5" scope="col">
+                    <th class="ps-4" scope="col">
                         4.2
                     </th>
-                    <td>
+                    <td class="ps-4">
                         <a class="link-dark link-offset-2 link-underline link-underline-opacity-0"
                             href="#code_server_simandre">Code du serveur Simandré</a>
                     </td>
@@ -136,19 +154,19 @@
                     </td>
                 </tr>
                 <tr>
-                    <th class="ps-5" scope="col">
+                    <th class="ps-4" scope="col">
                         6.1
                     </th>
-                    <td>
+                    <td class="ps-4">
                         <a class="link-dark link-offset-2 link-underline link-underline-opacity-0"
                             href="#etude_marche">Etude de marché</a>
                     </td>
                 </tr>
                 <tr>
-                    <th class="ps-5" scope="col">
+                    <th class="ps-4" scope="col">
                         6.2
                     </th>
-                    <td>
+                    <td class="ps-4">
                         <a class="link-dark link-offset-2 link-underline link-underline-opacity-0" href="#video">Vidéo
                             promotionnel</a>
                     </td>
@@ -172,19 +190,19 @@
                     </td>
                 </tr>
                 <tr>
-                    <th class="ps-5" scope="col">
+                    <th class="ps-4" scope="col">
                         8.1
                     </th>
-                    <td>
+                    <td class="ps-4">
                         <a class="link-dark link-offset-2 link-underline link-underline-opacity-0"
                             href="#auto">Autorisations d'utilisations</a>
                     </td>
                 </tr>
                 <tr>
-                    <th class="ps-5" scope="col">
+                    <th class="ps-4" scope="col">
                         8.2
                     </th>
-                    <td>
+                    <td class="ps-4">
                         <a class="link-dark link-offset-2 link-underline link-underline-opacity-0"
                             href="#restri">Restrctions</a>
                     </td>
@@ -268,18 +286,44 @@
         </p>
     </div>
     <div class="ps-5">
+        <div class="ps-5">
+            <h4 id="fonc">2.1.1 Fonctionnement</h4>
+            <p>
+                <b>Schéma du fonctionnement :</b>
+                <br>
+            <div class="d-flex justify-content-center">
+                <img class="w-50" src="schema_fonctionnement.png" alt="schema_fonctionnement">
+            </div>
+            </p>
+        </div>
+        <div class="ps-5">
+            <h4 id="cablage">2.1.2 Câblage</h4>
+            <p>
+                <b>Schéma du câblage :</b>
+                <br>
+            <div class="d-flex justify-content-center">
+                <img class="w-50" src="schema_cablage.jpg" alt="schema_cablage">
+            </div>
+            </p>
+        </div>
+    </div>
+    <div class="ps-5">
         <h4 id="cara-tech">2.2 Caractéristiques Techniques</h4>
         <p>
             Chaque composant du module Simandré remplit une fonction spécifique :
         <ul>
-            <li>Le microcontrôleur ESP-32 assure la gestion des capteurs et la transmission des données collectées.</li>
-            <li>Le capteur de pression atmosphérique BMP mesure la pression de l'air environnant, fournissant ainsi des
+            <li>Le microcontrôleur ESP-32 assure la gestion des capteurs et la transmission des données
+                collectées.</li>
+            <li>Le capteur de pression atmosphérique BMP mesure la pression de l'air environnant, fournissant
+                ainsi des
                 informations précieuses pour l'analyse météorologique.</li>
-            <li>Le capteur de qualité de l'air MQ-135 évalue la composition de l'air, détectant notamment la présence de
+            <li>Le capteur de qualité de l'air MQ-135 évalue la composition de l'air, détectant notamment la
+                présence de
                 polluants.</li>
         </ul>
         La coque en impression 3D du module présente un design pensé pour la fonctionnalité et l'esthétique. Des
-        ouvertures stratégiquement placées permettent la circulation de l'air, tandis que le style modulaire de la
+        ouvertures stratégiquement placées permettent la circulation de l'air, tandis que le style modulaire de
+        la
         coque, inspiré des puzzles ou des briques Lego, favorise un rangement efficace et offre une esthétique
         moderne.
         <br>
@@ -297,9 +341,23 @@
         </ul>
         </p>
     </div>
+
     <div class="pt-5">
         <h3 id="cahier_charge">3. Cahier des charges</h3>
         <p>
+            L'interface de la station météo doit permettre d'afficher les informations provenant des différents capteurs
+            placés sur le campus. Elle doit garantir une excellente expérience utilisateur, en présentant les
+            informations de manière claire et lisible. Le choix de développer une interface web ou mobile est laissé à
+            votre discrétion. Cette interface doit inclure une carte du campus indiquant l'emplacement des capteurs,
+            permettant ainsi à l'utilisateur de se souvenir de l'emplacement de ses capteurs.
+            <br>
+            <br>
+            L'interface doit être évolutive, permettant aux utilisateurs d'y lire tous ces capteurs. Pour une
+            application web, le choix des langages de programmation front-end et back-end est libre. Cependant, le type
+            de capteurs à installer sera prédéfini. Le groupe sera responsable de la réalisation et de l'installation de
+            leurs modules de capteurs sur le campus. Le choix de l'emplacement des capteurs est libre, mais il est
+            essentiel de s'organiser de manière à ce que les capteurs soient dispersés pour couvrir une grande partie du
+            campus.
         </p>
     </div>
     <div class="pt-5">
@@ -351,8 +409,10 @@
     <div class="ps-5 pt-1">
         <h4 id="etude_marche">6.1 Etude de marché</h4>
         <p>
-            Celle-ci vise à évaluer le potentiel commercial du module Simandré, un dispositif innovant de collecte de
-            données météorologiques et de qualité d'air, destiné à divers secteurs tels que l'industrie, les services,
+            Celle-ci vise à évaluer le potentiel commercial du module Simandré, un dispositif innovant de collecte
+            de
+            données météorologiques et de qualité d'air, destiné à divers secteurs tels que l'industrie, les
+            services,
             et les organismes de régulation environnementale.
             <br>
             <b>Objectifs de l'étude :</b>
@@ -363,7 +423,8 @@
             <li>Évaluer la perception et l'intérêt pour le module Simandré.</li>
         </ul>
         <br>
-        Il y a une demande croissante pour des solutions de surveillance environnementale, notamment dans les secteurs
+        Il y a une demande croissante pour des solutions de surveillance environnementale, notamment dans les
+        secteurs
         suivants :
         <ul>
             <li><b>Industrie manufacturière :</b> Besoin de contrôler les conditions atmosphériques pour garantir la
@@ -376,12 +437,14 @@
         <br>
         Les principaux concurrents incluent :
         <ul>
-            <li><b>Netatmo :</b> Fournit des stations météorologiques pour les particuliers et les professionnels.</li>
+            <li><b>Netatmo :</b> Fournit des stations météorologiques pour les particuliers et les professionnels.
+            </li>
             <li><b>Bosch :</b> Propose des capteurs environnementaux intégrés pour diverses applications.</li>
             <li><b>TZOA :</b> Spécialisé dans les capteurs de qualité de l'air.</li>
         </ul>
         <br>
-        Cependant le module Simandré se distingue par sa conception modulaire, sa facilité d'intégration dans différents
+        Cependant le module Simandré se distingue par sa conception modulaire, sa facilité d'intégration dans
+        différents
         environnements et sa capacité à fournir des données précises en temps réel au travers d'une plateforme
         accessible 24H/7 en ligne.
         <br>
@@ -389,11 +452,13 @@
         <br>
         <br>
         <ul>
-            <li><b>Grandes entreprises industrielles :</b> Besoin de solutions robustes et fiables pour la surveillance
+            <li><b>Grandes entreprises industrielles :</b> Besoin de solutions robustes et fiables pour la
+                surveillance
                 environnementale.</li>
             <li><b>Gestionnaires de bâtiments intelligents :</b> Intérêt pour l'optimisation des conditions
                 environnementales intérieures.</li>
-            <li><b>Organismes de régulation environnementale :</b> Nécessité de données précises pour la mise en œuvre
+            <li><b>Organismes de régulation environnementale :</b> Nécessité de données précises pour la mise en
+                œuvre
                 des politiques publiques.</li>
         </ul>
         <br>
@@ -418,13 +483,17 @@
         <br>
         <b>Besoins et défis</b>
         <ul>
-            <li><b>Surveillance en temps réel :</b> Mr.Reugarde a besoin de systèmes de surveillance en temps réel pour
+            <li><b>Surveillance en temps réel :</b> Mr.Reugarde a besoin de systèmes de surveillance en temps réel
+                pour
                 les
-                conditions atmosphériques dans les usines pour prévenir les défauts de production liés aux variations de
+                conditions atmosphériques dans les usines pour prévenir les défauts de production liés aux
+                variations de
                 température et de pression.</li>
-            <li><b>Conformité réglementaire :</b> Il doit garantir que les niveaux de pollution restent en dessous des
+            <li><b>Conformité réglementaire :</b> Il doit garantir que les niveaux de pollution restent en dessous
+                des
                 seuils réglementaires pour éviter des sanctions.</li>
-            <li><b>Optimisation des opérations :</b> Mr.Reugarde cherche des moyens d'améliorer l'efficacité énergétique
+            <li><b>Optimisation des opérations :</b> Mr.Reugarde cherche des moyens d'améliorer l'efficacité
+                énergétique
                 des installations.</li>
         </ul>
         <br>
@@ -439,7 +508,8 @@
         </ul>
         <br>
         <b>Avis envisageable :</b> "Le module Simandré nous a permis de de surveiller en temps réel les conditions
-        atmosphériques dans nos usines, réduisant ainsi les défauts de production et nous assurant que nous respectons
+        atmosphériques dans nos usines, réduisant ainsi les défauts de production et nous assurant que nous
+        respectons
         toutes les normes environnementales." - Alexandre REUGARDE, Responsable d'opérations industrielles.
         </p>
     </div>
@@ -483,18 +553,20 @@
     <div class="ps-4">
         <h4 id="auto">8.1 Autorisations d'utilisations</h4>
         <p>
-            Les logos peuvent être utilisés par les partenaires et les collaborateurs sous réserve d'une autorisation
-            écrite préalable.
+            L'utilisation des logos à des fins non commerciales est strictement interdite sans autorisation explicite.
             <br>
-            Toute utilisation publique des logos doit être approuvée par notre équipe de communication.
+            Les logos ne doivent pas être associés à des contenus ou des produits qui ne respectent pas nos valeurs et
+            notre éthique.
         </p>
     </div>
     <div class="ps-5">
         <h4 id="restri">8.2 Restrctions</h4>
         <p>
-            L'utilisation des logos à des fins non commerciales est strictement interdite sans autorisation explicite.
+            L'utilisation des logos à des fins non commerciales est strictement interdite sans autorisation
+            explicite.
             <br>
-            Les logos ne doivent pas être associés à des contenus ou des produits qui ne respectent pas nos valeurs et
+            Les logos ne doivent pas être associés à des contenus ou des produits qui ne respectent pas nos valeurs
+            et
             notre éthique.
         </p>
     </div>
@@ -508,7 +580,8 @@
         <ul>
             <li>Téléphone : +33 1 23 45 88 00</li>
             <li>E-mail : <a
-                    href="mailto:help.simandre@datasense-solutions.com">help.simandre@datasense-solutions.com</a></li>
+                    href="mailto:help.simandre@datasense-solutions.com">help.simandre@datasense-solutions.com</a>
+            </li>
             <li>Site web : <a href="http://www.datasense-solutions.com" target="_blank">www.datasense-soltuions.com</a>
             </li>
         </ul>
@@ -575,7 +648,8 @@
     </div>
     <br>
     <p>
-        Merci d'avoir lu cette documentation technique. Nous espérons qu'il vous aidera à utiliser le module Simandré de
+        Merci d'avoir lu cette documentation technique. Nous espérons qu'il vous aidera à utiliser le module
+        Simandré de
         manière efficace. Si vous avez des questions ou des commentaires, n'hésitez pas à nous contacter.
     </p>
 </body>
